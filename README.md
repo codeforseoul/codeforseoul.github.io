@@ -1,6 +1,6 @@
 # Code for Seoul 웹사이트
 
-[Code for Chicago]("http://opengovhacknight.org/")의 [프로젝트]("https://github.com/open-city/open-gov-hack-night")를 Code for Seoul에 맞게 수정한 홈페이지입니다.
+[Code for Chicago](http://opengovhacknight.org/)의 [프로젝트](https://github.com/open-city/open-gov-hack-night/)를 Code for Seoul에 맞게 수정한 홈페이지입니다.
 
 ## 로컬에서 실행하기
 

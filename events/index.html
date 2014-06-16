@@ -9,7 +9,7 @@ layout: default
     {{site.categories['events'].size }}
   </small>
 </h1>
-<p>Recent and upcoming hack nights, with links to each event's video livestream, projects, people, and data. <br /><a href='/feed.xml'><i class='icon-rss-sign'></i> RSS feed</a></p>
+<p><a href='/feed.xml'><i class='icon-rss-sign'></i> RSS feed</a></p>
 
 <table id='hack-night-events' class='table'>
   <thead>
@@ -36,7 +36,7 @@ layout: default
           <h3><small>#{{post.event_id}}</small> <a href='{{post.url}}'>{{post.title}}</a></h3>
           {{post.content}}
           <ul class='list-inline'>
-            <li><span class='text-muted'>Sponsor</span></li>
+            <li><span class='text-muted'>협력기관</span></li>
             <li><a href='{{post.sponsor_url}}'>{{post.sponsor}}</a></li>
           </ul>
         </td>

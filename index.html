@@ -53,9 +53,10 @@ layout: default
         <i class='icon-calendar'></i>
         다음 Hack Night
       </h4>
-      <p><img class='img-thumbnail' src="/images/places/{{ site.hacknight_img }}.png"></p>
+      <p><img class='img-thumbnail' src="/images/places/{{ site.hacknight_img }}"></p>
       <p>
         {{ site.hacknight_time }}<br />
+        {{ site.hacknight_date | date: "%b %d, %Y" }}<br />
         장소: {{ site.hacknight_place }}<br />
       </p>
       <a class='btn btn-success' href='http://www.meetup.com/Code-for-Seoul'>RSVP &raquo;</a>

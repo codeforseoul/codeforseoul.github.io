@@ -3,9 +3,12 @@ layout: event
 categories: 
   - events
 title: Hack Night - 워밍업
+time: 1PM
 date: 2014-06-21
 event_id: 2
 meetup_url: 189186062
+place_img: probable.png
+place_name: <a href="http://probable.kr" alt="어쩌면 사무소">어쩌면 사무소</a>
 sponsor: <a href='http://cckorea.org'>CCKOREA</a>, <a href='http://codenamu.org'>CODENAMU</a>, <a href='http://www.youthhub.kr/'>청년허브</a>
 published: true
 ---

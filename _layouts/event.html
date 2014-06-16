@@ -70,15 +70,15 @@ layout: default
         <i class='icon-calendar'></i>
         Code for Seoul Hack Night
       </h4>
-      <p><img class='img-thumbnail' src='/images/dcamp.png'></p>
+      <p><img class='img-thumbnail' src='/images/places/{{ page.place_img }}'></p>
       <p>
-        2pm<br />
+        {{ page.time }}<br />
         {{ page.date | date: "%b %d, %Y" }}<br />
-        <a href="http://dcamp.kr" alt="dcamp.kr">은행권청년창업재단 디캠프</a> 2층 다목적룸<br />
+        {{page.place_name}}<br />
       </p>
 
 
-      <p><strong>Sponsor</strong> {{page.sponsor}}</p>
+      <p><strong>협력기관</strong> {{page.sponsor}}</p>
     </div>
   </div>
 </div>

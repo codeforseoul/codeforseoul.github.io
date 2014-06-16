@@ -3,9 +3,12 @@ layout: event
 categories: 
   - events
 title: Code for Seoul 활동가 설명회
+time: 2PM
 date: 2014-06-14
 event_id: 1
 meetup_url: 188797532
+place_img: dcamp.png
+place_name: <a href="http://dcamp.kr" alt="디캠프">은행권청년창업재단 디캠프</a> 2층 다목적룸
 sponsor: <a href='http://cckorea.org'>CCKOREA</a>
 published: true
 ---

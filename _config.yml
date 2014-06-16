@@ -1,0 +1,19 @@
+port:  5000
+markdown: kramdown
+encoding: utf-8
+name: Code for Seoul
+url: http://codeforseoul.codenamu.org
+description: "Seoul civic group to build, share, and learn about civic tech."
+navigation:
+- text: Home
+  url: /index.html
+- text: Events
+  url: /events/index.html
+  category: events
+- text: Projects
+  url: /projects.html
+#- text: People
+#  url: /people.html
+# - text: Resources
+#   url: /resources.html
+

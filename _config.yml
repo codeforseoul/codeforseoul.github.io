@@ -3,6 +3,9 @@ markdown: kramdown
 encoding: utf-8
 name: Code for Seoul
 url: http://codeforseoul.codenamu.org
+hacknight_img: probable
+hacknight_time: 6월 21일 오후 1시
+hacknight_place: <a href="http://probable.kr">어쩌면 사무소</a>
 description: "Seoul civic group to build, share, and learn about civic tech."
 navigation:
 - text: Home

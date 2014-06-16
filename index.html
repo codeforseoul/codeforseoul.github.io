@@ -51,12 +51,12 @@ layout: default
     <div class='well'>
       <h4>
         <i class='icon-calendar'></i>
-        Code for Seoul Hack Night
+        다음 Hack Night
       </h4>
-      <p><img class='img-thumbnail' src='/images/dcamp.png'></p>
+      <p><img class='img-thumbnail' src="/images/places/{{ site.hacknight_img }}.png"></p>
       <p>
-        매 주 토요일 2시<br />
-        <a href="http://dcamp.kr" alt="dcamp.kr">은행권청년창업재단 디캠프</a> 2층 다목적룸<br />
+        {{ site.hacknight_time }}<br />
+        장소: {{ site.hacknight_place }}<br />
       </p>
       <a class='btn btn-success' href='http://www.meetup.com/Code-for-Seoul'>RSVP &raquo;</a>
     </div>
@@ -92,7 +92,7 @@ layout: default
 
 <div class='row sponsors'>
   <hr />
-  <h2 id='sponsors'>Sponsors</h2>    
+  <h2 id='sponsors'>협력 기관</h2>    
   <p>
     <a href='http://cckorea.org'><img src='images/sponsors/cckorea.png' alt='cckorea' style="width: 250px;"/></a>
     <a href='http://codeforamerica.com'><img src='images/sponsors/code-for-america.jpg' alt='Code for America' /></a>

@@ -3,10 +3,10 @@ markdown: kramdown
 encoding: utf-8
 name: Code for Seoul
 url: http://codeforseoul.codenamu.org
-hacknight_img: probable.png
-hacknight_time: 1PM
-hacknight_date: 2014-06-21
-hacknight_place: <a href="http://probable.kr">어쩌면 사무소</a>
+hacknight_img: dcamp.png
+hacknight_time: 10:30AM
+hacknight_date: 2014-06-28
+hacknight_place: <a href="http://dcamp.kr">은행권청년창업재단 디캠프</a> 5층 세미나실 C
 description: "Seoul civic group to build, share, and learn about civic tech."
 navigation:
 - text: Home
@@ -20,4 +20,3 @@ navigation:
 #  url: /people.html
 # - text: Resources
 #   url: /resources.html
-

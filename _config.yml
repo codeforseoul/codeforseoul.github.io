@@ -11,11 +11,14 @@ description: "Seoul civic group to build, share, and learn about civic tech."
 navigation:
 - text: Home
   url: /index.html
+- text: Projects
+  url: /projects.html
+- text: People
+  url: /people.html
 - text: Events
   url: /events/index.html
   category: events
-- text: Projects
-  url: /projects.html
+
 #- text: People
 #  url: /people.html
 # - text: Resources

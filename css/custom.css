@@ -22,7 +22,34 @@ a:hover, a:active {
   font-size: 18px;
 }
 
+.people {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.people img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.people h3 span {
+  font-size: 15px;
+}
+
+.people p:nth-child(3) {
+  font-size: 14px;
+}
+
+.people p:last-child {
+  text-align: left;
+}
+
 /* Space out content a bit */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #ff4040;
+}
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -35,14 +62,6 @@ body {
 
 .contributor-owner img {
   border: 1px solid #428bca;
-}
-
-.people td {
-  font-size: 20px;
-}
-
-.people img {
-  width: 50px;
 }
 
 .sponsors img {

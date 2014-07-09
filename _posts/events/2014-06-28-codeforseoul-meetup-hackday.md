@@ -5,7 +5,7 @@ categories:
 title: Code for Seoul Hack Day!
 time: 10:30AM
 date: 2014-06-28
-event_id: 1
+event_id: 3
 meetup_url: 190500472
 place_img: dcamp.png
 place_name: <a href="http://dcamp.kr" alt="디캠프">은행권청년창업재단 디캠프</a> 5층 세미나실C

@@ -50,6 +50,14 @@ a:hover, a:active {
   background-color: #ff4040;
 }
 
+.dl-horizontal dt {
+  width: 120px;
+}
+
+.dl-horizontal dd {
+  margin-left: 130px;
+}
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;

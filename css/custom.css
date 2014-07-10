@@ -22,6 +22,13 @@ a:hover, a:active {
   font-size: 18px;
 }
 
+@media(min-width: 768px) {
+  .container .jumbotron {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 .people {
   text-align: center;
   padding-top: 10px;
@@ -46,6 +53,10 @@ a:hover, a:active {
 }
 
 /* Space out content a bit */
+.pull-right {
+  margin-top: 15px;
+}
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #ff4040;
 }

@@ -30,25 +30,29 @@ a:hover, a:active {
 }
 
 .people {
+  margin-bottom: 30px;
+}
+
+.person {
   text-align: center;
   padding-top: 10px;
 }
 
-.people img {
+.person img {
   width: 100px;
   height: 100px;
   border-radius: 50px;
 }
 
-.people h3 span {
+.person h3 span {
   font-size: 15px;
 }
 
-.people p:nth-child(3) {
+.person p:nth-child(3) {
   font-size: 14px;
 }
 
-.people p:last-child {
+.person p:last-child {
   text-align: left;
 }
 

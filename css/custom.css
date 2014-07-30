@@ -29,6 +29,9 @@ a:hover, a:active {
   }
 }
 
+.subtitle {
+  font-size: 18px;
+}
 .people {
   margin-bottom: 30px;
 }

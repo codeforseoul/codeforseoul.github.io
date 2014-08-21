@@ -1,0 +1,10 @@
+# services
+
+- name: 의원님을 부탁해!
+  github: https://github.com/codeforseoul/national-assembly-activity-mailer
+
+- name: 서울맑음
+  github: https://github.com/codeforseoul/seoul_serenity
+
+- name: Where Does My Money Go?
+  github: https://github.com/codeforseoul/wheredoesmymoneygo.kr

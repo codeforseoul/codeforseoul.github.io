@@ -3,10 +3,10 @@ markdown: kramdown
 encoding: utf-8
 name: Code for Seoul
 url: http://codeforseoul.codenamu.org
-hacknight_img: dcamp.png
-hacknight_time: 01:00PM
-hacknight_date: 2014-07-12
-hacknight_place: <a href="http://dcamp.kr">은행권청년창업재단 디캠프</a> 5층 세미나실 C
+hacknight_img: cityhall.png
+hacknight_time: 07:30PM
+hacknight_date: 2014-08-25
+hacknight_place: <a href="http://place.map.daum.net/7938094">서울시청 서소문청사</a> 후생동
 description: "Code for Seoul is a civic group to build, share, and learn about civic tech for Seoul. 코드포서울은 서울을 위하여 사회적 문제를 해결하기 위한 커뮤니티입니다."
 navigation:
 - text: Home

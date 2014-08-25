@@ -1,3 +1,4 @@
+
 /* Code for Seoul Custom CSS */
 
 a {
@@ -22,6 +23,12 @@ a:hover, a:active {
   font-size: 18px;
 }
 
+@media(min-width: 1200px) {
+  .container {
+    width: 1370px;
+  }
+}
+
 @media(min-width: 768px) {
   .container .jumbotron {
     padding-left: 50px;
@@ -32,13 +39,11 @@ a:hover, a:active {
 .subtitle {
   font-size: 18px;
 }
-.people {
-  margin-bottom: 30px;
-}
 
 .person {
   text-align: center;
   padding-top: 10px;
+  height: 400px;
 }
 
 .person img {
@@ -195,3 +200,7 @@ body {
 }
 
 .project-needs { margin-top: 20px;}
+
+.footer {
+  clear: both;
+}

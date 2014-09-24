@@ -4,31 +4,33 @@ layout: default
 
 <section class="home">
 	<div class="introduce row">
-		<div class="logo_image">
-			<img src="/img/logo/logo_circle.png">
-		</div>
-		<div class="description">
-			<h2>코드로 보다 나은 서울을 만듭니다.</h2>
+		<div class="wrapper">
+			<img class="logo" src="https://farm4.staticflickr.com/3867/15337533102_1e8d86d993_o.png">
+			<div class="description">
+				<h1>코드로 보다 나은 서울을 만듭니다.</h1>
+				<p>{{site.description}}</p>
+			</div>
 		</div>
 	</div>
+	<div class="wrapper">
 	<div class="services row">
-		<h2>주요 서비스</h2>
-	{% for service in site.data.services %}
+		<h2>프로젝트  <span class="more_info"><a title="더 보기: Projects" href="https://github.com/codeforseoul" target="_blank">더 보기</a></span></h2>
+		{% for service in site.data.services %}
+		{% if service.indexpage %}
 		<div class="col-1-3">
-			<h3>{{ service.name }}</h3>
+			<a title="{{ serivce.name }}" href="{{ service.website }}"><h3>{{ service.name }}</h3></a>
+			<p class="description">{{ service.description }}</p>
 		</div>
+		{% endif %}
 	{% endfor %}
 	</div>
-	<div class="people row">
-		<h2>활동가들</h2>
-		{% for member in site.data.people %}
-			<div class="col-1-5">
-				<h3>{{ member.name }}</h3>
-				<p>{{ member.interest }}</p>
+	<div class="codeforall row">
+		<h2>Code for All  <span class="more_info"><a title="더 보기: Code for All" href="http://code-for-all.github.io/codeforall.org/" target="_blank">더 보기</a></span></h2>
+		{% for group in site.data.codeforall %}
+			<div class="group col-1-5">
+				<a title="{{ group.name }}" href="{{ group.url }}" target="_blank"><img src="{{ group.src }}" alt="{{ group.name }}" stlye="width: 300px;"></a>
 			</div>
 		{% endfor %}
 	</div>
-	<div class="partners row">
-		<h2>파트너</h2>
 	</div>
 </section>

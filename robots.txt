@@ -1,3 +1,0 @@
-Sitemap: http://codeforseoul.codenamu.org/sitemap.xml
-User-agent: *
-Disallow:

@@ -1,25 +1,13 @@
-port:  5000
-markdown: kramdown
-encoding: utf-8
-name: Code for Seoul
-url: http://codeforseoul.codenamu.org
-hacknight_img: cityhall.png
-hacknight_time: 07:30PM
-hacknight_date: 2014-08-25
-hacknight_place: <a href="http://place.map.daum.net/7938094">서울시청 서소문청사</a> 후생동
-description: "Code for Seoul is a civic group to build, share, and learn about civic tech for Seoul. 코드포서울은 서울을 위하여 사회적 문제를 해결하기 위한 커뮤니티입니다."
-navigation:
-- text: Home
-  url: /index.html
-- text: Projects
-  url: /projects.html
-- text: People
-  url: /people.html
-- text: Events
-  url: /events/index.html
-  category: events
+# Site settings
+title: Code for Seoul
+email: codeforseoul@codenamu.org
+description: > # this means to ignore newlines until "baseurl:"
+  코드포서울은 서울을 중심으로 기술을 통해 사회적 문제 해결을 위한 코드나무의 프로젝트 워킹 그룹입니다. <br/> 개발자와 디자이너 활동가들이 모여 서울에서 발생하는 사회적 문제를 고민하고 IT 기술로 해결할 수 있는 방법을 고민합니다. <br/> 그리고 우리가 가진 기술로 사회적 문제를 해결하기 위하여 결과물을 만들어갑니다.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://codeforseoul.codenamu.com" # the base hostname & protocol for your site
+twitter_username: codeforseoul_
+github_username:  codeforseoul
+facebook_username: codenamu
 
-#- text: People
-#  url: /people.html
-# - text: Resources
-#   url: /resources.html
+# Build settings
+markdown: kramdown

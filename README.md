@@ -12,6 +12,13 @@ cd  /path/to/your-project/codeforseoul.github.io
 
 jekyll serve -w
 ```
-*-w 혹은 --watch 옵션 jekyll 서버를 동작하는 중에 파일이 변경될 경우 자동으로 변경된 사항을 적용하여 빌드합니다.
+**-w 혹은 --watch** 옵션은 jekyll 서버를 동작하는 중에 파일이 변경될 경우 자동으로 변경된 사항을 적용하여 빌드합니다.
 
-3. 개발 시작!
+3. 개발 도중 ```_config.yml```을 변경한 경우 **-w 혹은 --watch** 옵션이 적용되지 않습니다. 따라서 서버를 중단한 뒤 새로 빌드하여야 합니다.
+```
+ctrl+c 로 로컬 서버 중단
+
+jekyll serve -w
+```
+
+# 개발 시작!

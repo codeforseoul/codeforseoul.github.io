@@ -86,6 +86,7 @@ section {
 	color: #cccccc;
 	height: 600px;
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   justify-content: center;
 	@include media-query($on-palm) {
@@ -123,6 +124,7 @@ section {
 .home .introduce .wrapper {
 	width: 1100px;
 	background-color: rgba(0, 0, 0, 0.5);
+	margin: auto;
 	padding: 40px 0;
   @include media-query($on-palm) {
   	width: 100%;

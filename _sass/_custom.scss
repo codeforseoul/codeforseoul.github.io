@@ -82,10 +82,11 @@ section {
 /* index - introduce */
 
 .home .introduce {
-//	background: url(https://farm6.staticflickr.com/5114/14504086826_ac6322297d_o.jpg) no-repeat scroll center center / cover transparent;
+	background: url('https://farm6.staticflickr.com/5114/14504086826_0c4abca052_z.jpg') no-repeat scroll center center / cover transparent;
 	color: #cccccc;
 	height: 600px;
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   justify-content: center;
 	@include media-query($on-palm) {
@@ -123,6 +124,7 @@ section {
 .home .introduce .wrapper {
 	width: 1100px;
 	background-color: rgba(0, 0, 0, 0.5);
+	margin: auto;
 	padding: 40px 0;
   @include media-query($on-palm) {
   	width: 100%;

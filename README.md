@@ -23,3 +23,6 @@
 	```
 
 # 개발 시작!
+
+# 라이선스
+[라이선스 보기](https://github.com/codeforseoul/codeforseoul.github.io/blob/master/LICENSE)

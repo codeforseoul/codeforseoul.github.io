@@ -1,146 +1,151 @@
-#people
+- name: "제니퍼"
+  img: "jennifer.jpg"
+  role: "코디네이터"
+  email: "hskang211(at)gmail(dot)com"
+  twitter: "hskang"
+  interest: "오픈커뮤니티/사회혁신/사람과기술/오픈/공유/간장게장/전복"
+  introduce: "CCKOREA에서 상근활동가로 어쩌다 보니 코드나무 커뮤니티도 만들게 되었습니다. 코드나무 프로젝트 때문에 공무원분들을 엄청 만나게 되는 영광(?)을 얻었지요~ 기술자가 아니라 새로운 것을 만들어내는 아티스트로 크고 작은 재미있는 변화를 만들어내는 일에 조력자가 되고 싶습니다."
 
-- name: 제니퍼
-  img: /img/members/jennifer.jpg
-  role: 코디네이터
-  email: hskang211(at)gmail(dot)com
-  twitter: hskang
-  interest: 오픈커뮤니티/사회혁신/사람과기술/오픈/공유/간장게장/전복
-  introduce: CCKOREA에서 상근활동가로 어쩌다 보니 코드나무 커뮤니티도 만들게 되었습니다. 코드나무 프로젝트 때문에 공무원분들을 엄청 만나게 되는 영광(?)을 얻었지요~ 기술자가 아니라 새로운 것을 만들어내는 아티스트로 크고 작은 재미있는 변화를 만들어내는 일에 조력자가 되고 싶습니다.
+- name: "구치훈"
+  img: "chihoon.jpeg"
+  role: "개발자"
+  email: "kkh975(at)naver(dot)com"
+  interest: "알고리즘/공학/과학/익스트림 스포츠"
+  introduce: "아자~"
 
-- name: 구치훈
-  img: /img/members/chihoon.jpeg
-  role: 개발자
-  email: kkh975(at)naver(dot)com
-  interest: 알고리즘/공학/과학/익스트림 스포츠
-  introduce: 아자~
+- name: "권기택"
+  img: "gitaek.jpg"
+  role: "개발자"
+  github: "gitaeks"
+  interest: "웹/세계인이 같이 쓰는 SW만들기"
+  introduce: "백마디 말보다 한줄의 코드가 때론 세상을 변화시킬 힘을 가지고 있습니다. 코드로 세상과 소통하고 좋은 영향력을 전파하는 삶을 목표합니다."
 
-- name: 권기택
-  img: /img/members/gitaek.jpg
-  role: 개발자
-  github: gitaeks
-  interest: 웹/세계인이 같이 쓰는 SW만들기
-  introduce: 백마디 말보다 한줄의 코드가 때론 세상을 변화시킬 힘을 가지고 있습니다. 코드로 세상과 소통하고 좋은 영향력을 전파하는 삶을 목표합니다.
+- name: "김지민"
+  img: "kimjimin.jpg"
+  role: "개발자"
+  email: "ed.kim(at)edkim(dot)com"
+  github: "edkimandco"
+  interest: "Biblical Criticism/Entrepreneurship/Metaphysics/Worldview"
+  introduce: "초기기업과 함께하는 IT 서비스 기업 김지민앤컴퍼니를 설립하여 경영하고 있습니다. 회사에서는 경영, 행정, SW 개발 교육 등을 담당하고 있고, 모든 영역을 아우르는 것을 좋아하다 보니 몸이 고생하고 있습니다. 좋은 작품을 만드는 일에 열정을 느낍니다. :)"
 
-- name: 김지민
-  img: /img/members/kimjimin.jpg
-  role: 개발자
-  email: ed.kim(at)edkim(dot)com
-  github: edkimandco
-  interest: Biblical Criticism/Entrepreneurship/Metaphysics/Worldview
-  introduce: 초기기업과 함께하는 IT 서비스 기업 김지민앤컴퍼니를 설립하여 경영하고 있습니다. 회사에서는 경영, 행정, SW 개발 교육 등을 담당하고 있고, 모든 영역을 아우르는 것을 좋아하다 보니 몸이 고생하고 있습니다. 좋은 작품을 만드는 일에 열정을 느낍니다. :)
+- name: "김하은"
+  img: "haeun.jpg"
+  role: "개발자"
+  email: "s.kim9511(at)gmail(dot)com"
+  facebook: "4kingand"
+  interest: "인문학/사회 이슈/SAP/WEB/맛집/잘 먹고 잘 놀기"
+  introduce: "C현재 KT ds ERP부서에서 SAP 개발을 맡고 있습니다. 웹 및 모바일 어플리케이션 개발은 취미 수준이라 부족하지만, 열심히 하겠숩니둥."
 
-- name: 김하은
-  img: /img/members/haeun.jpg
-  role: 개발자
-  email: s.kim9511(at)gmail(dot)com
-  facebook: 4kingand
-  interest: 인문학/사회 이슈/SAP/WEB/맛집/잘 먹고 잘 놀기
-  introduce: C현재 KT ds ERP부서에서 SAP 개발을 맡고 있습니다. 웹 및 모바일 어플리케이션 개발은 취미 수준이라 부족하지만, 열심히 하겠숩니둥
+- name: "다이앤"
+  img: "daye.jpg"
+  role: "에디터"
+  twitter: "dayejung"
+  interest: "오픈웹/음악/기본소득/퍼퓸/양말"
+  introduce: "CCKOREA에서 상근활동가로 있던 시절에 코드나무가 막 움을 틔웠고, 사무국에 있다 보니 어쩌다가 리서치며 실무며 하게 되었습니다^^; 캐나다 특파원(?)입니다."
 
-- name: 다이앤
-  img: /img/members/daye.jpg
-  role: 에디터
-  twitter: dayejung
-  interest: 오픈웹/음악/기본소득/퍼퓸/양말
-  introduce: CCKOREA에서 상근활동가로 있던 시절에 코드나무가 막 움을 틔웠고, 사무국에 있다 보니 어쩌다가 리서치며 실무며 하게 되었습니다^^; 캐나다 특파원(?)입니다.
+- name: "문정순"
+  img: "jungsoon.jpg"
+  role: "디자이너"
+  interest: "디자인/UX/서비스디자인/IoT/가치/가족/친구 등"
+  introduce: "반갑습니다.^^"
 
-- name: 문정순
-  img: /img/members/jungsoon.jpg
-  role: 디자이너
-  interest: 디자인/UX/서비스디자인/IoT/가치/가족/친구 등
-  introduce: 반갑습니다.^^
+- name: "박수미"
+  img: "sumi.jpg"
+  role: "기획자"
+  facebook: "sumihallo"
+  interest: "Running, 식물, 쿠킹, 매거진"
+  introduce: "코드포서울 피크닉가요 우리~~"
 
-- name: 박수미
-  img: /img/members/sumi.jpg
-  role: 기획자
-  facebook: sumihallo
-  interest: Running, 식물, 쿠킹, 매거진
-  introduce: 코드포서울 피크닉가요 우리~~
+- name: "배지윤"
+  img: "jiyoon.jpg"
+  role: "디자이너"
+  interest: "맛집/건강/잠"
+  introduce: "안녕하세요 배지윤입니다:)"
 
-- name: 배지윤
-  img: /img/members/jiyoon.jpg
-  role: 디자이너
-  interest: 맛집/건강/잠
-  introduce: 안녕하세요 배지윤입니다:)
+- name: "서영태"
+  img: "youngtae.jpg"
+  role: "개발자"
+  github: "yoseo"
+  interest: "협동조합/공유/고양이"
+  introduce: "삼인행 필유아사(三人行 必有我師)라는 말이 있습니다. 세 사람이 함께 길을 가면 반드시 그 안에 스승이 있다고 합니다. 함께 좋은 프로젝트를 만들어 가며 동반성장할 수 있었으면 좋겠습니다."
 
-- name: 서영태
-  img: /img/members/youngtae.jpg
-  role: 개발자
-  github: yoseo
-  interest: 협동조합/공유/고양이
-  introduce: 삼인행 필유아사(三人行 必有我師)라는 말이 있습니다. 세 사람이 함께 길을 가면 반드시 그 안에 스승이 있다고 합니다. 함께 좋은 프로젝트를 만들어 가며 동반성장할 수 있었으면 좋겠습니다.
+- name: "신일용"
+  img: "ilyong.jpg"
+  role: "개발자"
+  github: "yoiziy"
+  interest: "관심 분야는 너무 많아요. 하지만 그 중에 제일은 사랑...그리고 Happiness"
+  introduce: "한번 혼나야 정신차리는 철부지입니다."
 
-- name: 윤혜정
-  img: /img/members/hyejeong.png
-  role: 기획자
-  interest: 초밥/정보디자인/HCI/기초과학/프로세싱/아두이노 등
-  introduce: 세상의 모든 것에 호기심이 있고, 어느 누구든지 친구가 되고 싶습니다. :)
+- name: "윤혜정"
+  img: "hyejeong.png"
+  role: "기획자"
+  interest: "초밥/정보디자인/HCI/기초과학/프로세싱/아두이노 등"
+  introduce: "세상의 모든 것에 호기심이 있고, 어느 누구든지 친구가 되고 싶습니다. :)"
 
-- name: 이응셋
-  img: /img/members/ooo.jpg
-  role: 디자이너
-  email: alice0445(at)gmail(dot)com
-  github: yeyeon
-  interest: 독립출판/버스/공공을 위한 디자인/발상법/부엉이
-  introduce: 그래픽디자인과 국문학을 공부하고 있으며 2013년 슬로워크에서 디자인 파견업무로 임영제님과 공공데이터 인포그래픽작업으로 코드나무에 참여했습니다. 코드나무와 cckorea와의 인연으로 창작과 나눔, 공유에 대한 관심을 키워가고 있습니다. 텍스트와 이미지, 위트와 영감의 표현에 관심이 있으며 버스문화잡지 /Thinking Bus/를 만들고있습니다.
+- name: "이응셋"
+  img: "ooo.jpg"
+  role: "디자이너"
+  email: "alice0445(at)gmail(dot)com"
+  github: "yeyeon"
+  interest: "독립출판/버스/공공을 위한 디자인/발상법/부엉이"
+  introduce: "그래픽디자인과 국문학을 공부하고 있으며 2013년 슬로워크에서 디자인 파견업무로 임영제님과 공공데이터 인포그래픽작업으로 코드나무에 참여했습니다. 코드나무와 cckorea와의 인연으로 창작과 나눔, 공유에 대한 관심을 키워가고 있습니다. 텍스트와 이미지, 위트와 영감의 표현에 관심이 있으며 버스문화잡지 /Thinking Bus/를 만들고있습니다."
 
-- name: 이충환
-  img: /img/members/choonghwan.jpg
-  role: 개발자
-  email: chunsun21(at)gmail(dot)com
-  interest: 웹/JAVA/HADOOP/LUCENE/ELASTICSEARCH/좋은 사업 아이템/여자....(솔로일 때.. 지금은 솔로)
-  introduce: 앞으로 활동가로 열심히 하겠습니다. 잘 부탁드립니다!
+- name: "이충환"
+  img: "choonghwan.jpg"
+  role: "개발자"
+  email: "chunsun21(at)gmail(dot)com"
+  interest: "웹/JAVA/HADOOP/LUCENE/ELASTICSEARCH/좋은 사업 아이템/여자....(솔로일 때.. 지금은 솔로)"
+  introduce: "앞으로 활동가로 열심히 하겠습니다. 잘 부탁드립니다!"
 
-- name: 임영제
-  img: /img/members/youngje.jpg
-  role: 에디터
-  email: easygoinglim(at)gmail(dot)com
-  github: jeff-lim
-  interest: 데이터저널리즘/저널리즘혁신/사회혁신/순대국/걷기
-  introduce: 우리 삶을 담아내는 언론이 좋았고, 더 나은 뉴스를 만들기 위한 방법을 찾다가 코드나무에 함께하게 되었습니다. 정책과 저널리즘에 관련된 피드를 수집, 공유하고 있습니다.
+- name: "임영제"
+  img: "youngje.jpg"
+  role: "에디터"
+  email: "easygoinglim(at)gmail(dot)com"
+  github: "jeff-lim"
+  interest: "데이터저널리즘/저널리즘혁신/사회혁신/순대국/걷기"
+  introduce: "우리 삶을 담아내는 언론이 좋았고, 더 나은 뉴스를 만들기 위한 방법을 찾다가 코드나무에 함께하게 되었습니다. 정책과 저널리즘에 관련된 피드를 수집, 공유하고 있습니다."
 
-- name: 장승훈
-  img: /img/members/chunsik.jpg
-  role: 개발자
-  email: thechunsik(at)cckorea(dot)org
-  twitter: thechunsik
-  github: thechunsik
-  facebook: thechunsik
-  interest: 오픈웹/열린정부/정부투명성/무한도전/슈퍼히어로/알랭드보통
-  introduce: 목점이 매력적인 춘식입니다.CCKOREA/코드나무 활동가입니다. 오픈웹과 코드로 보다 나은 세상을 만들 수 있다고 믿습니다.
+- name: "장승훈"
+  img: "chunsik.jpg"
+  role: "개발자"
+  email: "thechunsik(at)cckorea(dot)org"
+  twitter: "thechunsik"
+  github: "thechunsik"
+  facebook: "thechunsik"
+  interest: "오픈웹/열린정부/정부투명성/무한도전/슈퍼히어로/알랭드보통"
+  introduce: "목점이 매력적인 춘식입니다.CCKOREA/코드나무 활동가입니다. 오픈웹과 코드로 보다 나은 세상을 만들 수 있다고 믿습니다."
 
-- name: 정지민
-  img: /img/members/jeongjimin.jpg
-  role: 디자이너
-  email: ju419(at)hotmail(dot)com
-  github: jeongjimin
-  facebook: jimin2892
-  interest: 여행..여행..여행...Only!! 여행~ㅋ
-  introduce: 거창한 뜻은 없지만 할 수 있는 능력껏 최선을 다해보겠습니다.
+- name: "정지민"
+  img: "jeongjimin.jpg"
+  role: "디자이너"
+  email: "ju419(at)hotmail(dot)com"
+  github: "jeongjimin"
+  facebook: "jimin2892"
+  interest: "여행..여행..여행...Only!! 여행~ㅋ"
+  introduce: "거창한 뜻은 없지만 할 수 있는 능력껏 최선을 다해보겠습니다."
 
-- name: 정창현
-  img: /img/members/changhyun.jpg
-  role: 개발자
-  email: dev.jacobjung(at)gmail(dot)com
-  facebook: cmfamily11
-  interest: 모바일/빅데이터/산/바다/레저 등
-  introduce: 여기저기 재미있는거 찾아 다니는 한량이고 싶은 개발노동자입니다.
+- name: "정창현"
+  img: "changhyun.jpg"
+  role: "개발자"
+  email: "dev.jacobjung(at)gmail(dot)com"
+  facebook: "cmfamily11"
+  interest: "모바일/빅데이터/산/바다/레저 등"
+  introduce: "여기저기 재미있는거 찾아 다니는 한량이고 싶은 개발노동자입니다."
 
-- name: 조용현
-  img: /img/members/yonghyun.jpg
-  role: 개발자
-  email: augecho(at)gmail(dot)com
-  github: augecho
-  facebok: schpeltor
-  interest: 패밀리/프로젝트관리/오픈데이터 활용/웹/안드로이드 개발/공개SW 사용 및 커뮤니티 활동/코드나무 활동/OKF 활동/LOD/IT 트랜드/영화
-  introduce: 몸은 죽으면 썩어 문드러 진답니다. 움직일 수 있을 때 열심히 써먹어야 겠습니다.
+- name: "조용현"
+  img: "yonghyun.jpg"
+  role: "개발자"
+  email: "augecho(at)gmail(dot)com"
+  github: "augecho"
+  facebok: "schpeltor"
+  interest: "패밀리/프로젝트관리/오픈데이터 활용/웹/안드로이드 개발/공개SW 사용 및 커뮤니티 활동/코드나무 활동/OKF 활동/LOD/IT 트랜드/영화"
+  introduce: "몸은 죽으면 썩어 문드러 진답니다. 움직일 수 있을 때 열심히 써먹어야 겠습니다."
 
-- name: 홍영택
-  img: /img/members/youngtaek.png
-  role: 개발자
-  email: mozodev(at)cckorea(dot)org
-  twitter: mozodev
-  github: mozodev
+- name: "홍영택"
+  img: "youngtaek.png"
+  role: "개발자"
+  email: "mozodev(at)cckorea(dot)org"
+  twitter: "mozodev"
+  github: "mozodev"
   interest: "산책, 드루팔 등 오픈소스 프로젝트, 여행, 낮술, 삽질"
-  introduce: 나는 이런 사람<br>이렇게 태어났지<br>웃고 싶으면<br>큰 소리로 웃고<br>날 사랑하는 이를 사랑하지<br><br>- 자끄 프레베르
+  introduce: "나는 이런 사람<br>이렇게 태어났지<br>웃고 싶으면<br>큰 소리로 웃고<br>날 사랑하는 이를 사랑하지<br><br>- 자끄 프레베르"

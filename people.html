@@ -10,7 +10,7 @@ permalink: /people/
 		{% for member in site.data.people %}
 			<li class="layout-crotchet">
 				<div class="member">
-					<img src="{{ member.img }}" alt="{{ member.name }}">
+					<img src="/img/members/{{ member.img }}" alt="{{ member.name }}">
 					<h3 class="name">{{ member.name }}<span class="role"> | {{ member.role }}</span></h3>
 					<p class="interest">{{ member.interest }}</p>
 					<p class="introduce">{{ member.introduce }}</p>

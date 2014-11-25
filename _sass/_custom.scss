@@ -175,6 +175,7 @@ section {
 	background-image: none;
 	position: relative;
 	text-align: center;
+  min-height: 280px;
 }
 
 
@@ -206,12 +207,11 @@ section {
 	font-family: "Interstate","Gotham A","Gotham B","Open Sans Regular","Verdana","Helvetica","Arial";
 	font-weight: 700;
 	font-style: normal;
-	text-transform: uppercase;
 	border-bottom: medium none;
 	padding: 0px;
 	background-repeat: no-repeat;
-}
-.member .list-social {
+  position: absolute;
+  bottom: 0;
 	background: none repeat scroll 0% 0% rgba(229, 229, 229, 0.6);
 	padding: 0.625rem 0px 0.1875rem;
 	margin: 0px;

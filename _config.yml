@@ -4,7 +4,7 @@ email: codeforseoul@codenamu.org
 description: > # this means to ignore newlines until "baseurl:"
   코드포서울은 서울을 중심으로 기술을 통해 사회적 문제 해결을 위한 코드나무의 프로젝트 워킹 그룹입니다. <br/> 개발자와 디자이너 활동가들이 모여 서울에서 발생하는 사회적 문제를 고민하고 IT 기술로 해결할 수 있는 방법을 고민합니다. <br/> 그리고 우리가 가진 기술로 사회적 문제를 해결하기 위하여 결과물을 만들어갑니다.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://codeforseoul.codenamu.com" # the base hostname & protocol for your site
+url: "http://codeforseoul.org" # the base hostname & protocol for your site
 twitter_username: codeforseoul_
 github_username:  codeforseoul
 facebook_username: codenamu

@@ -1,70 +1,74 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+
 <section class="home">
-	<div class="introduce row">
-		<div class="wrapper">
-			<img class="logo" src="/img/logo/logo_circle.png">
-			<div class="description">
-				<h1>코드로 보다 나은 서울을 만듭니다.</h1>
-				<p>{{site.description}}</p>
-			</div>
-		</div>
-	</div>
-	<div class="wrapper">
-		<div class="services row">
-			<div class="page-header">
-				<h2>프로젝트 <small><a href="https://github.com/codeforseoul" target="_blank">더 보기</a></small></h2>
-			</div>
-			{% for service in site.data.services %}
-				{% if service.indexpage %}
-				<div class="col-1-3">
-					<a title="{{ serivce.name }}" href="{{ service.website }}" target="_blank"><h3>{{ service.name }}</h3></a>
-					<p class="description">{{ service.description }}</p>
-				</div>
-				{% endif %}
-			{% endfor %}
-		</div>
-	</div>
-	<div class="row">
-		<div class="page-header">
-			<h2>Hack Night!  <small><a href="https://www.flickr.com/photos/wowcckorea/sets/72157645816753208/" target="_blank">더 보기</a></small></h2>
-		</div>
-		<div id="owl-example" class="owl-carousel">
-			<div><a href="https://www.flickr.com/photos/wowcckorea/15320726602/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/1.jpg" alt="Hacknight 1"></a></div>
-			<div><a href="https://www.flickr.com/photos/wowcckorea/15306175876/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/2.jpg" alt="Hacknight 2"></a></div>
-			<div><a href="https://www.flickr.com/photos/wowcckorea/15064059915/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/3.jpg" alt="Hacknight 3"></a></div>
-			<div><a href="https://www.flickr.com/photos/wowcckorea/15062652215/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/4.jpg" alt="Hacknight 4"></a></div>
-			<div><a href="https://www.flickr.com/photos/wowcckorea/14941931138/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/5.jpg" alt="Hacknight 5"></a></div>
-			<div><a href="https://www.flickr.com/photos/wowcckorea/15134357000/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/6.jpg" alt="Hacknight 6"></a></div>
-			<div><a href="https://www.flickr.com/photos/wowcckorea/15039654816/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/7.jpg" alt="Hacknight 7"></a></div>
-			<div><a href="https://www.flickr.com/photos/wowcckorea/15062303562/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/8.jpg" alt="Hacknight 8"></a></div>
-		</div>
-	</div>
-	<div class="wrapper">
-		<div class="codeforall row">
-			<div class="page-header">
-				<h2>Code for All  <small><a href="http://code-for-all.github.io/codeforall.org/" target="_blank">더 보기</a></small></h2>
-			</div>
-			{% for group in site.data.codeforall %}
-				<div class="group col-1-5">
-					<a title="{{ group.name }}" href="{{ group.url }}" target="_blank"><img src="{{ group.src }}" alt="{{ group.name }}" stlye="width: 300px;"></a>
-				</div>
-			{% endfor %}
-		</div>
-	</div>
+  <div class="introduce row">
+    <div class="wrapper">
+      <div class="col-md-4 logo"><img src="/img/logo/logo_circle.png"></div>
+      <div class="col-md-8 description">
+        <h1>코드로 보다 나은 서울을 만듭니다.</h1>
+        <p>{{site.description}}</p>
+        <div class="row">
+          <a href="http://2014.codeforseoul.org" target="_blank"><button class="btn btn-default 2014annual"><i class="fa fa-file-text-o fa-lg"></i>  2014 Annual Report</button></a>
+          <a href="https://github.com/codeforseoul/gettingstarted" target="_blank"><button class="btn btn-default gettingstarted"><i class="fa fa-angle-double-right"></i>  시빅해킹 시작하기</button></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="services row">
+      <div class="page-header">
+        <h2>프로젝트 <small><a href="https://github.com/codeforseoul" target="_blank">더 보기</a></small></h2>
+      </div>
+      {% for service in site.data.services %}
+        {% if service.indexpage %}
+        <div class="col-md-4">
+          <a title="{{ serivce.name }}" href="{{ service.website }}" target="_blank"><h3>{{ service.name }}</h3></a>
+          <p class="description">{{ service.description }}</p>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="page-header">
+      <h2>Hack Night!  <small><a href="https://www.flickr.com/photos/wowcckorea/sets/72157645816753208/" target="_blank">더 보기</a></small></h2>
+    </div>
+    <div id="owl-example" class="owl-carousel">
+      <div><a href="https://www.flickr.com/photos/wowcckorea/15868541329/in/set-72157649764443646" target="_blank"><img src="/img/hacknight/1.jpg" alt="Hacknight 1" height="246px"></a></div>
+      <div><a href="https://www.flickr.com/photos/wowcckorea/15869285757/in/set-72157649764443646" target="_blank"><img src="/img/hacknight/2.jpg" alt="Hacknight 2" height="246px"></a></div>
+      <div><a href="https://www.flickr.com/photos/wowcckorea/15432247184/in/set-72157649764443646" target="_blank"><img src="/img/hacknight/3.jpg" alt="Hacknight 3" height="246px"></a></div>
+      <div><a href="https://www.flickr.com/photos/wowcckorea/15062652215/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/4.jpg" alt="Hacknight 4" height="246px"></a></div>
+      <div><a href="https://www.flickr.com/photos/wowcckorea/14941931138/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/5.jpg" alt="Hacknight 5" height="246px"></a></div>
+      <div><a href="https://www.flickr.com/photos/wowcckorea/15134357000/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/6.jpg" alt="Hacknight 6" height="246px"></a></div>
+      <div><a href="https://www.flickr.com/photos/wowcckorea/15039654816/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/7.jpg" alt="Hacknight 7" height="246px"></a></div>
+      <div><a href="https://www.flickr.com/photos/wowcckorea/15062303562/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/8.jpg" alt="Hacknight 8" height="246px"></a></div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="codeforall row">
+      <div class="page-header">
+        <h2>Code for All  <small><a href="http://code-for-all.github.io/codeforall.org/" target="_blank">더 보기</a></small></h2>
+      </div>
+      {% for group in site.data.codeforall %}
+        <div class="group col-md-2">
+          <a title="{{ group.name }}" href="{{ group.url }}" target="_blank"><img src="{{ group.src }}" alt="{{ group.name }}" stlye="width: 300px;"></a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/owl-carousel/owl.carousel.min.js"></script>
+
 <script>
-	$(document).ready(function() { 
-		$("#owl-example").owlCarousel(
-			{
-				autoPlay: 3000, //Set AutoPlay to 3 seconds
-				items : 4,
-				itemsDesktop : [1199,3],
-				itemsDesktopSmall : [979,3]
-			}
-		)});
-	</script>
+  $(document).ready(function() { 
+    $("#owl-example").owlCarousel(
+      {
+        autoPlay: 3000, //Set AutoPlay to 3 seconds
+        items : 4,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+      }
+    )});
+  </script>

@@ -8,12 +8,12 @@
 
 - name: "의원님을 부탁해!"
   indexpage: true
-  website: "https://github.com/codeforseoul/national-assembly-activity-crawler"
-  github: "https://github.com/codeforseoul/national-assembly-activity-crawler"
+  website: "https://github.com/codeforseoul/congress-report"
+  github: "https://github.com/codeforseoul/congress-report"
   description: "선거 때만 보이는 국회의원들, 평소엔 잘 하고 있을까요? 내가 사는 지역구의 국회의원들이 출석률은 어떻게 되는지, 어떤 법안을 발의하고 어떤 법안에 찬성/반대를 했는지 보기 쉽게 이메일로 보내드립니다!"
 
 - name: "알뜰 서울의 발견"
   indexpage: true
-  website: "https://github.com/codeforseoul/FdAS"
+  website: "http://codeforseoul.org/FdAS"
   github: "https://github.com/codeforseoul/FdAS"
   description: "서울 시민이라면 이 정돈 알아아죠! 서울 시민이라면 누구나 서울시에서 받을 수 있는 모든 혜택들을 쉽게 찾아볼 수 있습니다. 나만이 알고 있는 서울시 복지 혜택을 다른 시민들에게 공유할 수도 있습니다."

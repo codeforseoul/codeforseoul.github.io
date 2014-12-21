@@ -134,7 +134,7 @@ section {
 
 
 .member .name {
-  font-size: 1.375rem;
+  font-size: 2.375rem;
   margin-bottom: 0.25rem;
   font-family: "Interstate","Gotham A","Gotham B","Open Sans Regular","Verdana","Helvetica","Arial";
   font-weight: 700;
@@ -142,13 +142,21 @@ section {
 }
 
 .member .role {
-  font-size: 0.875rem;
+  font-size: 1.075rem;
 }
 
-.member .introduce, .member .interest{
+.member .interest {
+  font-size: 1.275rem;
+  text-align: center;
   padding: 0px 0.5rem;
   line-height: 1.3125rem;
-  font-size: 0.875rem;
+}
+
+.member .introduce {
+  font-size: 1.275rem;
+  text-align: left;
+  padding: 0px 1.3rem;
+  line-height: 1.3125rem;
 }
 
 .member .list-social {
@@ -210,7 +218,7 @@ section {
 }
 
 .layout-crotchet {
-  width: 32%;
+  width: 23%;
   float: left;
   clear: none;
   margin: 0px;
@@ -223,7 +231,7 @@ section {
     margin-left: 2%;
 }
 
-.layout-crotchet:nth-of-type(3n+4) {
+.layout-crotchet:nth-of-type(4n+1) {
   margin-left: 0;
   clear: both;
 }

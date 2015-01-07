@@ -1,16 +1,16 @@
-var Meetup = Meetup || {};
+var meetup = meetup || {};
 
-Meetup.config = {
+meetup.config = {
   group_url: 'code-for-seoul',
   group_id: '146177402',
   api: '7e603761f462d75487f3e3021584a73'
 }
 
-Meetup.getEvents = function(options) {
+meetup.getEvents = function(options) {
   var status = options && options.status || 'upcoming',
       desc = options && options.desc || false;
 
-  var url = 'https://api.meetup.com/2/events?&key=' + this.config.api + '&sign=true&photo-host=public&desc=' + desc + '&group_urlname='+ this.config.group_url + '&page=10&status=' + status;
+  var url = 'https://api.meetup.com/2/events?&key=' + meetup.config.api + '&sign=true&photo-host=public&desc=' + desc + '&group_urlname='+ meetup.config.group_url + '&page=10&status=' + status;
 
   $.ajax({
     type: 'GET',
@@ -20,7 +20,6 @@ Meetup.getEvents = function(options) {
     dataType: 'jsonp',
     success: function(data) {
       var events = [];
-      console.log(data);
 
       $.each(data.results, function (key, val) {
         var date = new Date(val.time);
@@ -33,4 +32,4 @@ Meetup.getEvents = function(options) {
   });
 };
 
-Meetup.getEvents();
+meetup.getEvents();

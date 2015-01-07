@@ -50,13 +50,6 @@
   interest: "디자인/UX/서비스디자인/IoT/가치/가족/친구 등"
   introduce: "반갑습니다.^^"
 
-- name: "박수미"
-  img: "sumi.jpg"
-  role: "기획자"
-  facebook: "sumihallo"
-  interest: "Running, 식물, 쿠킹, 매거진"
-  introduce: "코드포서울 피크닉가요 우리~~"
-
 - name: "배지윤"
   img: "jiyoon.jpg"
   role: "디자이너"
@@ -150,3 +143,19 @@
   github: "mozodev"
   interest: "산책, 드루팔 등 오픈소스 프로젝트, 여행, 낮술, 삽질"
   introduce: "나는 이런 사람<br>이렇게 태어났지<br>웃고 싶으면<br>큰 소리로 웃고<br>날 사랑하는 이를 사랑하지<br><br>- 자끄 프레베르"
+
+- name: "Jalal CHAABANE"
+  img: "jalal.jpg"
+  role: "개발자"
+  email: "jalal.chaabane@gmail.com"
+  interest: "Parralel computing, Network programming, Server programming, Algorithm, GPU programming using OpenCL, Web programming"
+  introduce: "Hello, I'm jalal, i'm French exchange student in South Korea now. I'm 24 year-old(international age). I prepare a master in computer science. I like classical music, Japanese animation, playing football, share knowledge with other people, programming software. I'm more low-level programmer than high level programmer. I made two internship, one as teacher assistant and one as a programmer in a Medical research Institute(IRCAD)."
+
+- name: "CORNEAU Damien"
+  img: "damien.jpg"
+  email: "corneadoug@gmail.com"
+  website: "www.corneadoug.com"
+  twitter: "tweetmytralala"
+  likedin: "https://www.linkedin.com/pub/damien-corneau/32/26/75"
+  interest: "Web, UI/UX, Maker Projects, Cooking, Cheese, Wearables"
+  introduce: "42"

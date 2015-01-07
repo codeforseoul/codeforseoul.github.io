@@ -5,28 +5,34 @@ permalink: /people/
 ---
 
 <div class="wrapper">
-	<h1>활동가들</h1>
-	<ul>
-		{% for member in site.data.people %}
-			<li class="layout-crotchet">
-				<div class="member">
-					<img src="/img/members/{{ member.img }}" alt="{{ member.name }}">
-					<h3 class="name">{{ member.name }}<span class="role"> | {{ member.role }}</span></h3>
-					<p class="interest">{{ member.interest }}</p>
-					<p class="introduce">{{ member.introduce }}</p>
-					<ul class="list-social">
-						{% if member.twitter %}
-	            <li class="social-twitter"><a href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a></li>
-						{% endif %}
-						{% if member.github %}
-	            <li class="social-github"><a href="https://github.com/{{ member.github }}">{{ member.twitter }}</a></li>
-						{% endif %}
-						{% if member.facebook %}
-	            <li class="social-facebook"><a href="https://facebook.com/{{ member.facebook }}">{{ member.facebook }}</a></li>
-						{% endif %}
-	        </ul>
-				</div>
-			</li>
-		{% endfor %}
-	</ul>
+  <h1>활동가들</h1>
+  <ul>
+    {% for member in site.data.people %}
+      <li class="layout-crotchet">
+        <div class="member">
+          <img src="/img/members/{{ member.img }}" alt="{{ member.name }}">
+          <h3 class="name">{{ member.name }}<span class="role"> | {{ member.role }}</span></h3>
+          <p class="interest">{{ member.interest }}</p>
+          <p class="introduce">{{ member.introduce }}</p>
+          <ul class="list-social">
+            {% if member.website %}
+              <li class="social-website"><a href="http://{{ member.website }}">{{ member.website }}</a></li>
+            {% endif %}
+            {% if member.twitter %}
+              <li class="social-twitter"><a href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a></li>
+            {% endif %}
+            {% if member.github %}
+              <li class="social-github"><a href="https://github.com/{{ member.github }}">{{ member.twitter }}</a></li>
+            {% endif %}
+            {% if member.facebook %}
+              <li class="social-facebook"><a href="https://facebook.com/{{ member.facebook }}">{{ member.facebook }}</a></li>
+            {% endif %}
+            {% if member.linkedin %}
+              <li class="social-linkedin"><a href="{{ member.linkedin }}">{{ member.linkedin }}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

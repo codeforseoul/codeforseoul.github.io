@@ -25,14 +25,10 @@ Meetup.getEvents = function(options) {
       $.each(data.results, function (key, val) {
         var date = new Date(val.time);
         convertedDate = (date.getMonth()+1) + '월 ' + date.getDate() + '일 ' + date.getHours() + ':' + date.getMinutes();
-        events.push("<div class='event'><h4 class='event_name'><a href='" + val.event_url + "' target='_blank'>" + val.name + "</a></h4><p><b>" + convertedDate + "</b></p>" + val.description.substring(0, 100) + "...<p>" + convertedDate + "</p></div>");
+        events.push("<div class='event'><h4 class='event_name'><a href='" + val.event_url + "' target='_blank'>" + val.name + "</a></h4><p><b>" + convertedDate + "</b></p>" + val.description.substring(0, 100) + "...</div>");
       });
       
       $('.events').html(events.join(""));
-      // $("<ul/>", {
-      //   "class": "events",
-      //   html: events.join("")
-      // }).appendTo('.events');
     }
   });
 };

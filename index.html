@@ -18,23 +18,33 @@ layout: default
     </div>
   </div>
   <div class="wrapper">
-    <div class="services row">
-      <div class="page-header">
-        <h2>프로젝트 <small><a href="https://github.com/codeforseoul" target="_blank">더 보기</a></small></h2>
-      </div>
-      {% for service in site.data.services %}
-        {% if service.indexpage %}
-        <div class="col-md-4">
-          <a title="{{ serivce.name }}" href="{{ service.website }}" target="_blank"><h3>{{ service.name }}</h3></a>
-          <p class="description">{{ service.description }}</p>
+    <div class="row">
+      <div class="col-md-9">
+        <div class="page-header">
+          <h2>진행중인 프로젝트 <small><a href="https://github.com/codeforseoul" target="_blank">더 보기</a></small></h2>
         </div>
-        {% endif %}
-      {% endfor %}
+        {% for service in site.data.services %}
+          {% if service.indexpage %}
+          <div class="projects row">
+            <h4><a title="{{ serivce.name }}" href="{{ service.website }}" target="_blank">{{ service.name }}</a></h4>
+            <p class="description">{{ service.description }}</p>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="col-md-3">
+        <div class="page-header">
+          <h2>예정 모임 <small><a href="https://meetup.com/code-for-seoul/" target="_blank">더 보기</a></small></h2>
+        </div>
+        <div class="events row">
+          
+        </div>
+      </div>
     </div>
   </div>
   <div class="row">
     <div class="page-header">
-      <h2>Hack Night!  <small><a href="https://www.flickr.com/photos/wowcckorea/sets/72157645816753208/" target="_blank">더 보기</a></small></h2>
+      <h2>활동 모습  <small><a href="https://www.flickr.com/photos/wowcckorea/sets/72157645816753208/" target="_blank">더 보기</a></small></h2>
     </div>
     <div id="owl-example" class="owl-carousel">
       <div><a href="https://www.flickr.com/photos/wowcckorea/15868541329/in/set-72157649764443646" target="_blank"><img src="/img/hacknight/1.jpg" alt="Hacknight 1" height="246px"></a></div>
@@ -60,7 +70,7 @@ layout: default
     </div>
   </div>
 </section>
-
+<script src="js/meetup.js"></script>
 <script>
 $(document).ready(function() { 
   $("#owl-example").owlCarousel(

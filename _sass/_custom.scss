@@ -35,10 +35,6 @@ section {
   margin-top: 30px;
 }
 
-.home h1, .home h2, .home h3 {
-  text-align: center;
-}
-
 .home .more_info {
   font-size: 12px;
   font-style: italic;
@@ -96,9 +92,13 @@ section {
 
 
 
-/* index - services */
+/* index - projects, events */
 
-.services .description {
+.projects h4 {
+  padding-left: 15px;
+}
+
+.projects .description {
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;
 }

@@ -276,3 +276,18 @@ table {
 .nowrap {
   white-space: nowrap;
 }
+
+/* contact */
+
+.contact {
+  display: block;
+  width: 100%;
+  margin: 3em 0;
+  text-align: center;
+  li {
+    margin: 1em 0;
+  }
+  a.btn {
+    color: #fff;
+  }
+}

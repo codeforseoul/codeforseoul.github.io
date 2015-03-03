@@ -26,7 +26,17 @@ API 토큰은 커밋하거나 하지말고 조용히 나만 알고 있습니다.
 slackin codeforseoul {{API_TOKEN}} -p 4000
 
 // 백그라운드 실행
-nohup slackin codeforseoul {{API_TOKEN}} -p 4000 & 
+
+// slackin.js
+Require('slackin')({
+  token: '{{API_TOKEN}}', // required
+  interval: 1000,
+  org: 'codeforseoul', // required - your slack sub domain
+  silent: false // suppresses warnings
+}).listen(4000);
+
+forever start slackin.js
+
 ```
 실행할 때 나만 알고있는 토큰을 넣습니다. 노드나 기타 다른 인스턴스가 포트 충돌되면 저렇게 포트 지정해서 안 겹치게 올리시면 됩니다.
 

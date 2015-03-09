@@ -292,3 +292,20 @@ table {
 a.btn.btn-danger {
   color: #fff;
 }
+
+.finder_icon {
+  background-image: url(https://slack.global.ssl.fastly.net/6b25/img/finder_icon@2x.png);
+  background-size: 100%;
+}
+
+.platform_icon {
+  width: 108px;
+  height: 116px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.chrome_icon {
+  background-image:url(http://slack.global.ssl.fastly.net/272a/img/chrome_icon@2x.png);
+}

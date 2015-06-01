@@ -11,3 +11,7 @@ facebook_username: codenamu
 
 # Build settings
 markdown: kramdown
+
+# Blog
+paginate: 5
+paginate_path: "/blog/page:num/"

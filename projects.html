@@ -1,0 +1,49 @@
+---
+layout: page
+title: 프로젝트
+permalink: /projects/
+splash: projects-splash.jpg|지켜보고 있다 대한민국 재정
+---
+
+<div class="container sr-only">
+  <h1 class="page-header">Projects</h1>
+</div>
+
+
+{% assign types =  site.project | group_by:"type" %}
+
+<div class="container">
+
+{% for type in types reversed %}
+  <div class="type clearfix">
+    {% assign type_title = '프로젝트' %}
+    {% if type.name == 'event' %}
+      {% assign type_title = '모임' %}
+    {% endif %}
+    <h2>{{ type_title }}</h2>
+    <ul class="clearfix list text-center">
+    {% assign items = type.items | sort:"id" %}
+    {% for item in items | sort:"id" %}
+      <li class="col-xs-4">
+        <div class="well">
+          <p><a href="{{ item.url }}">
+          {% if item.flickr_img %}
+            <img class="img-thumbnail" src="{{ item.flickr_img }}" alt="{{ item.title }}">
+          {% else %}
+            <span class="no-img">
+              <span class="thumbnail">
+                <i class="fa fa-smile-o fa-5x"></i>
+              </span>
+            </span>
+          {% endif %}
+          </a></p>
+          <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
+
+  </div>
+{% endfor %}
+
+</div>

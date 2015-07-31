@@ -26,13 +26,13 @@ layout: default
     <div class="row">
       <div class="col-md-9">
         <div class="page-header">
-          <h2>진행중인 프로젝트 <small><a href="https://github.com/codeforseoul" target="_blank">더 보기</a></small></h2>
+          <h2>진행중인 프로젝트 <small><a href="/projects" target="_blank">더 보기</a></small></h2>
         </div>
-        {% for service in site.data.services %}
-          {% if service.indexpage %}
+        {% for project in site.projects %}
+          {% if project.status == 'active' %}
           <div class="projects row">
-            <h4><a title="{{ serivce.name }}" href="{{ service.website }}" target="_blank">{{ service.name }}</a></h4>
-            <p class="description">{{ service.description }}</p>
+            <h4><a title="{{ project.title }}" href="{{ project.url }}" target="_blank">{{ project.title }}</a></h4>
+            <p class="description">{{ project.description }}</p>
           </div>
           {% endif %}
         {% endfor %}

@@ -7,37 +7,37 @@ layout: default
     <h1 class="page-title">{{ page.title }}</h1>
   </header>
 
-  <!-- <div class="alert alert-info" role="alert">
-    {{ page }}
-  </div> -->
-
-  <article class="page-content">
+  <article class="page-content row project">
     <div class="col-xs-8 contents">
-      {% if page.flickr_img %}
-      <img class="img-thumbnail" src="{{ page.flickr_img }}" />
-      {% endif %}
+      {% if page.banner %}<img class="img-thumbnail" src="{{ page.banner }}" />{% endif %}
       {{ content }}
     </div>
     <div class="col-xs-4">
-    {% if page.type == 'project' %}
-      <div class="well">
-      {% if page.result %}
-        <a target="_blank" href="{{ page.result }}" class="btn btn-primary btn-result">웹사이트</a>
-      {% endif %}
-
-        <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
-          {% if page.documents %}
-          <a target="_blank" href="{{ page.documents }}" class="btn btn-primary btn-documents">문서</a>
-        {% endif %}
-        {% if page.github %}
-          <a target="_blank" href="{{ page.github }}" class="btn btn-primary btn-github">깃헙</a>
-        {% endif %}
-        {% if page.slack %}
-          <a target="_blank" href="{{ page.slack }}" class="btn btn-primary btn-slack">슬랙</a>
-        {% endif %}
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">참여하기</h3>
         </div>
+        <div class="panel-body">
+        {% if page.website %}
+          <a target="_blank" href="{{ page.website }}" class="btn btn-primary btn-result">웹사이트</a>
+        {% endif %}
 
-        <div class="panel panel-default">
+          <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+          {% if page.documents %}
+            <a target="_blank" href="{{ page.documents }}" class="btn btn-default btn-documents">문서</a>
+          {% endif %}
+          {% if page.github %}
+            <a target="_blank" href="https://github.com/codeforseoul/{{ page.github }}" class="btn btn-default btn-github">깃헙</a>
+          {% endif %}
+          {% if page.slack %}
+            <a target="_blank" href="https://codeforseoul.slack.com/messages/{{ page.slack }}" class="btn btn-default btn-slack">슬랙</a>
+          {% endif %}
+          </div>
+        </div>
+  
+      </div>
+
+        <!-- <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">팀 </h3>
           </div>
@@ -47,61 +47,16 @@ layout: default
             <p class="thumbnail"><img src="{{ page.team_photo }}" /></p>
             {% endif %}
           </div>
-        </div>
-      </div>
-      {% endif %}
-
-    {% if page.type == 'event' %}
-      <div class="well">
-      {% if page.website %}
-        <a target="_blank" href="{{ page.website }}" class="btn btn-primary btn-result">웹사이트</a>
-        <p>&nbsp;</p>
-      {% endif %}
-
-      {% if page.flickr_album %}
-        <a target="_blank" href="{{ page.flickr_album }}" class="btn btn-primary btn-result">사진 보기</a>
-        <p>&nbsp;</p>
-      {% endif %}
-
-      {% if page.document %}
-        <a target="_blank" href="{{ page.document }}" class="btn btn-primary btn-result">기록 문서</a>
-        <p>&nbsp;</p>
-      {% endif %}
-      </div>
-    {% endif %}
+        </div> -->
 
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><a href="/projects">모임</a></h3>
+          <h3 class="panel-title"><a href="/projects">프로젝트</a></h3>
         </div>
         <div class="panel-body">
-          {% assign types =  site.project | group_by:"type" %}
           <ul>
-          {% for type in types %}
-            {% if type.name == 'event' %}
-              {% for item in type.items %}
-                <li{% if item.url == page.url %} class="active"{% endif %}>{% if item.url != page.url %}<a href="{{ item.url }}">{% endif %}{{ item.title }}{% if item.url != page.url %}</a>{% endif %}</li>
-              {% endfor %}
-            {% endif %}
-          {% endfor %}
-          <ul>
-        </div>
-      </div>
-
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title"><a href="/projects">Projects</a></h3>
-        </div>
-        <div class="panel-body">
-          {% assign types =  site.project | group_by:"type" %}
-          <ul>
-          {% for type in types %}
-            {% if type.name == 'project' %}
-              {% assign items = type.items | sort:"id" %}
-              {% for item in items %}
-                <li{% if item.url == page.url %} class="active"{% endif %}>{% if item.url != page.url %}<a href="{{ item.url }}">{% endif %}{{ item.title }}{% if item.url != page.url %}</a>{% endif %}</li>
-              {% endfor %}
-            {% endif %}
+          {% for project in site.projects %}
+            <li{% if project.url == page.url %} class="active"{% endif %}>{% if project.url != page.url %}<a href="{{ project.url }}">{% endif %}{{ project.title }}{% if project.url != page.url %}</a>{% endif %}</li>
           {% endfor %}
           <ul>
         </div>

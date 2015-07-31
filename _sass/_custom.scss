@@ -309,3 +309,42 @@ a.btn.btn-danger {
 .chrome_icon {
   background-image:url(http://slack.global.ssl.fastly.net/272a/img/chrome_icon@2x.png);
 }
+
+/* youtue video */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  background: transparent;
+  color: #31708f;
+  font-weight: bold;
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.btn-result {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 160%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+
+.project .img-thumbnail {
+  margin-bottom: 15px;
+}

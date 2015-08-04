@@ -69,6 +69,18 @@ layout: default
       {% endfor %}
     </div>
   </div>
+  <div class="wrapper">
+    <div class="sponsors row">
+      <div class="page-header">
+        <h2>Sponsors</h2>
+      </div>
+      {% for sponsor in site.data.sponsors %}
+        <div class="group col-md-2">
+          <a title="{{ sponsor.name }}" href="{{ sponsor.url }}" target="_blank"><img src="{{ sponsor.src }}" alt="{{ sponsor.name }}"></a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
 <script src="js/meetup.js"></script>
 <script>

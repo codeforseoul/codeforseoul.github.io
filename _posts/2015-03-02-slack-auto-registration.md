@@ -18,7 +18,7 @@ categories: slack
 ### 1. 설치
 
 ```
-npm -g install slackin
+npm -g i slackin forever
 ```
 
 ### 2. API 토큰 얻기
@@ -34,15 +34,16 @@ API 토큰은 커밋하거나 하지말고 조용히 나만 알고 있습니다.
 {% highlight javascript %}
 
 // 일단 실행
-slackin codeforseoul {{API_TOKEN}} -p 4000
+slackin -p 4000 {{ ORG ID }} {{ API_TOKEN }}
 
 // 백그라운드 실행
+nano slackin.js
 
 // slackin.js
-Require('slackin')({
-  token: 'YOUR_API_TOKEN', // required
+require('slackin')({
+  token: '{{ API_TOKEN }}', // required
   interval: 1000,
-  org: 'codeforseoul', // required - your slack sub domain
+  org: '{{ ORG ID }}', // required - your slack sub domain
   silent: false // suppresses warnings
 }).listen(4000);
 
@@ -50,7 +51,7 @@ forever start slackin.js
 
 {% endhighlight %}
 
-실행할 때 나만 알고있는 토큰을 넣습니다. 노드나 기타 다른 인스턴스가 포트 충돌되면 저렇게 포트 지정해서 안 겹치게 올리시면 됩니다.
+실행할 때 나만 알고 있는 토큰을 넣습니다. 노드나 기타 다른 인스턴스가 포트 충돌되면 저렇게 포트 지정해서 안 겹치게 올리시면 됩니다.
 
 
 ### 4. nginx 설정 및 도메인 레코드 설정

@@ -1,28 +1,18 @@
-# 개발 환경
-* [Jekyll](http://jekyllrb.com)
 
-# 설치하기
-1. 다음 가이드에 따라 'Jekyll'을 설치합니다.
-: [http://jekyllrb.com/docs/installation/](http://jekyllrb.com/docs/installation/)
+Code for Seoul 홈페이지
+===========================
+이 홈페이지는 [OpenSpending 커뮤니티 사이트](http://community.openspending.org)를 포크(fork)하여 만들었습니다.
 
-2. 해당 폴더로 이동하여 로컬 환경에서 Jekyll을 실행합니다.
-참고: **-w 혹은 --watch** 옵션은 jekyll 서버를 동작하는 중에 파일이 변경될 경우 자동으로 변경된 사항을 적용하여 빌드합니다.
+This website is forked from [OpenSpending 커뮤니티 사이트](http://community.openspending.org).
 
-	```
-	cd  /path/to/your-project/codeforseoul.github.io
-	
-	jekyll serve -w
-	```
-	
-3. 개발 도중 ```_config.yml```을 변경한 경우 **-w 혹은 --watch** 옵션이 적용되지 않습니다. 따라서 서버를 중단한 뒤 새로 빌드하여야 합니다.
+사이트 루트 디렉토리에서 ``bundle install``을 실행하여 사이트에 필요한 요소들을
+다운받은 뒤 ``bundle exec jekyll serve``를 실행하여 http://0.0.0.0:4000/
+를 확인하세요.
 
-	```
-	ctrl+c 로 로컬 서버 중단
-	
-	jekyll serve -w
-	```
+From the root directory of the site, run ``bundle install`` to
+download the site requirements.  Then run ``bundle exec jekyll serve``
+to see the site hosted locally at http://0.0.0.0:4000/.
 
-# 개발 시작!
+Pull request는 언제나 환영입니다!
 
-# 라이선스
-[라이선스 보기](https://github.com/codeforseoul/codeforseoul.github.io/blob/master/LICENSE)
+Pull requests welcome ;)

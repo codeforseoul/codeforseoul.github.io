@@ -1,99 +1,42 @@
 ---
 layout: default
-title: 코드포서울!
-description: 서울을 위해, 서울이 가진 문제를 해결해보기 위해 모인 서울 시민들의 커뮤니티입니다.
-banner: /img/banner.jpg
+js:
+ - vendor/jquery.adaptive-backgrounds.min
+ - home
 ---
 
-<section class="home">
-  <div class="introduce row">
+<div class="home">
+  <section class="banner" data-adaptive-background='1' data-ab-css-background='1'>
     <div class="wrapper">
-      <div class="col-md-4 logo"><img src="/img/logo/logo_circle.png"></div>
-      <div class="col-md-8 description">
-        <h1>코드로 보다 나은 서울을 만듭니다.</h1>
-        <p>{{site.description}}</p>
-        <div class="row">
-          <a href="http://2014.codeforseoul.org" target="_blank"><button class="btn btn-default 2014annual"><i class="fa fa-file-text-o fa-lg"></i>  2014 Annual Report</button></a>
-          <a href="https://github.com/codeforseoul/gettingstarted" target="_blank"><button class="btn btn-default gettingstarted"><i class="fa fa-angle-double-right"></i>  시빅해킹 시작하기</button></a>
-        </div>
-      </div>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </div>
+  </section>
 
-    </div>
-  </div>
   <div class="wrapper">
-    <div class="row">
-      <div class="col-md-9">
-        <div class="page-header">
-          <h2>진행중인 프로젝트 <small><a href="/projects" target="_blank">더 보기</a></small></h2>
-        </div>
-        {% for project in site.projects %}
-          {% if project.status == 'active' %}
-          <div class="projects row">
-            <h4><a title="{{ project.title }}" href="{{ project.url }}" target="_blank">{{ project.title }}</a></h4>
-            <p class="description">{{ project.description }}</p>
-          </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="col-md-3">
-        <div class="page-header">
-          <h2>예정 모임 <small><a href="http://www.meetup.com/code-for-seoul/" target="_blank">더 보기</a></small></h2>
-        </div>
-        <div class="events row">
-          
-        </div>
+
+    <div>
+      <h2>코드포서울이란?</h2>
+      <p>코드포서울은 시민들이 자발적으로 도시의 문제를 IT기술을 가지고 해결하고자 노력하는 시빅해킹 커뮤니티입니다. 전 세계의 시빅 해커들과 함께 우리가 살고 있는 도시를 위해 참여해보세요.</p>
+      <a href="{{ "/about/" | prepend: site.baseurl }}">더 알아보기</a>
+    </div>
+
+    <div>
+      <div>
+        <h2>참여하기</h2>
+        <p>개발자, 디자이너 뿐만 아니라 도시의 문제를 직접 해결해보고 싶은 시민들은 누구나 참여하실 수 있습니다.</p>
+        <a href="{{ "/get-involved/" | prepend: site.baseurl }}">더 알아보기</a>
       </div>
     </div>
-  </div>
-  <div class="pictures row">
-    <div class="page-header">
-      <h2>활동 모습  <small><a href="https://www.flickr.com/photos/wowcckorea/sets/72157645816753208/" target="_blank">더 보기</a></small></h2>
-    </div>
-    <div id="owl-example" class="owl-carousel">
-      <div><a href="https://www.flickr.com/photos/wowcckorea/15868541329/in/set-72157649764443646" target="_blank"><img src="/img/hacknight/1.jpg" alt="Hacknight 1" height="246px"></a></div>
-      <div><a href="https://www.flickr.com/photos/wowcckorea/15869285757/in/set-72157649764443646" target="_blank"><img src="/img/hacknight/2.jpg" alt="Hacknight 2" height="246px"></a></div>
-      <div><a href="https://www.flickr.com/photos/wowcckorea/15432247184/in/set-72157649764443646" target="_blank"><img src="/img/hacknight/3.jpg" alt="Hacknight 3" height="246px"></a></div>
-      <div><a href="https://www.flickr.com/photos/wowcckorea/15062652215/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/4.jpg" alt="Hacknight 4" height="246px"></a></div>
-      <div><a href="https://www.flickr.com/photos/wowcckorea/14941931138/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/5.jpg" alt="Hacknight 5" height="246px"></a></div>
-      <div><a href="https://www.flickr.com/photos/wowcckorea/15134357000/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/6.jpg" alt="Hacknight 6" height="246px"></a></div>
-      <div><a href="https://www.flickr.com/photos/wowcckorea/15039654816/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/7.jpg" alt="Hacknight 7" height="246px"></a></div>
-      <div><a href="https://www.flickr.com/photos/wowcckorea/15062303562/in/set-72157645816753208" target="_blank"><img src="/img/hacknight/8.jpg" alt="Hacknight 8" height="246px"></a></div>
-    </div>
-  </div>
-  <div class="wrapper">
-    <div class="codeforall row">
-      <div class="page-header">
-        <h2>Code for All  <small><a href="http://code-for-all.github.io/codeforall.org/" target="_blank">더 보기</a></small></h2>
+    <div>
+      <div>
+        <h2>연락하기</h2>
+        <p>
+          코드포서울 활동가들과 함께 이야기를 나눠보세요! 궁금한 것들도 물어보고 함께 프로젝트에도 참여해보세요. 그리고 직접 코드포서울 활동가가 되어보세요.
+        </p>  <a href="{{ "/next/" | prepend: site.baseurl }}">더 알아보기</a>
       </div>
-      {% for group in site.data.codeforall %}
-        <div class="group col-md-2">
-          <a title="{{ group.name }}" href="{{ group.url }}" target="_blank"><img src="{{ group.src }}" alt="{{ group.name }}" stlye="width: 300px;"></a>
-        </div>
-      {% endfor %}
     </div>
+
   </div>
-  <div class="wrapper">
-    <div class="sponsors row">
-      <div class="page-header">
-        <h2>Sponsors</h2>
-      </div>
-      {% for sponsor in site.data.sponsors %}
-        <div class="group col-md-2">
-          <a title="{{ sponsor.name }}" href="{{ sponsor.url }}" target="_blank"><img src="{{ sponsor.src }}" alt="{{ sponsor.name }}"></a>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-<script src="js/meetup.js"></script>
-<script>
-$(document).ready(function() { 
-  $("#owl-example").owlCarousel(
-    {
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
-      items : 4,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
-    }
-  )});
-</script>
+
+</div>

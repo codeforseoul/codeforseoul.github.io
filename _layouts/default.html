@@ -1,18 +1,76 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="">
 
-	{% include head.html %}
+  {% include head.html %}
 
-	<body>
+  <body{% if page.filters %} class="filters"{% endif %}>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <section id="ok-panel" class="closed"><iframe src="https://dl.dropboxusercontent.com/u/61713888/codeforseoul/panel/cfs_panel.html" scrolling="no"></iframe></section>
+    <div>
+      <a class="white ok-ribbon" href="https://okfn.org/"><img src="/img/logo_small.png" alt="Code for Seoul"></a>
+      <div>
+        {% include header.html %}
+    
+        <div class="page-content">
+          {{ content }}
+        </div>
+    
+        {% include footer.html %}
+      </div>
+    </div>
 
-		{% include header.html %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      {% if page.githubactivity %}
+      <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+      <script src="http://okfnlabs.org/githubActivity.js/githubActivity.js"></script>
+      {% endif %}
 
-		<div class="page-content">
-			{{ content }}
-		</div>
-
-		{% include footer.html %}
-
-	</body>
+    <script src="{{ "/js/plugins.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+    {% if page.js %}
+    {% for file in page.js %}
+    <script src="{{ site.baseurl }}/js/{{ file }}.js"></script>
+    {% endfor %}
+    {% endif %}
+    <script src="//cdn.rawgit.com/okfn/ok-panel/v1.0.0/assets/js/frontend.min.js"></script>
+    
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>{{ site.url }}{{ page.url }}'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+        
+        $(".headerlink a").click(function() { 
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+    
+    {% if site.googleanalytics %}
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','{{ site.googleanalytics }}','auto');ga('send','pageview');
+    </script>
+    {% endif %}
+    
+  </body>
 
 </html>

@@ -1,24 +1,34 @@
 ---
 layout: default
+wide: true
 ---
-<div class="container">
-	<div class="row">
-		<div class="col-md-8">
-			<div class="post">
-			  <header class="post-header">
-			    <h1 class="post-title">{{ page.title }}</h1>
-			    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-			  </header>
 
-			  <article class="post-content">
-			    {{ content }}
-			  </article>
+{% assign section = page.section %}
 
-			</div>
-		</div>
-		<div class="col-md-4">
-			
-		</div>
-	</div>
-		
+{% assign section_base = site.baseurl | append: section | append: '/' %}
+                 
+<div class="post">
+  <article class="post-content">
+    <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.authors %}
+    <div class="author">Written by
+      <ul>
+      {% for author in page.authors %}
+        <li>{{ author }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% capture pagetime %}{{page.date | date: '%s'}}{% endcapture %}
+    {% if pagetime < '1429045200' %}
+    {% include deprecated.html %}
+    {% endif %}
+                     
+    {{ content }}
+  </article>
+
 </div>
+
+{% include page-tools.html %}

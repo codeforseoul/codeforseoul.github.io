@@ -1,58 +1,23 @@
 ---
 title: About Code for Seoul
-redirect_from:
-  - "/about/governance/"
 ---
 
-OpenSpending exists to *map the money worldwide* &ndash; that is, to
-track and analyse public financial information globally.  It is meant
-to be a resource for individuals and groups who wish to
-discuss and investigate public financial information, including
-journalists, academics, campaigners, and more. Concretely,
-OpenSpending is:
+## 코드포{도시} ?
+'코드포{도시}' 커뮤니티는 우리가 살고 있는 도시를 더 살기 좋은 곳으로 만들기 위해 모인 시민들의 커뮤니티입니다. 우리 나라를 포함해 미국, 독일, 일본 등 약 11개국의 80여 도시들이 [Code for All]("http://code-for-all.github.io/codeforall.org/)이라는 이름으로 네트워킹과 협력을 함께하고 있습니다.
 
-* A central, high-quality, open **platform** for public financial information, including budgets, spending, balance sheets, procurement etc
-* A **community** of users and contributors to this database
-* A set of **open resources** providing technical, fiscal, and political understanding necessary to work with financial information.
+<div style="display: inline-block; width: 32%;">
+  <img src="https://farm3.staticflickr.com/2935/14792679304_4b26c6ff8a_c.jpg" style="width: 90%;">
+</div>
+<div style="display: inline-block; width: 32%;">
+  <img src="https://farm4.staticflickr.com/3875/14814883173_3f701a6819_c.jpg" style="width: 90%;">
+</div>
+<div style="display: inline-block; width: 32%;">
+  <img src="https://farm4.staticflickr.com/3855/14608333270_54ba02f0f2_c.jpg" style="width: 90%;">
+</div>
 
-We are currently building [the next version of OpenSpending](/next/).  Find out more about how to [get involved](/get-involved/).
+## 코드포서울
+서울을 위해, 서울이 가진 문제를 해결해보기 위해 모인 서울 시민들의 커뮤니티입니다. 공유 운동과 함께 열린 정부 활동을 하고 있던 국내 비영리단체 [크리에이티브 커먼즈 코리아](http://cckorea.org)에서 시빅 해킹을 커뮤니티를 조직하여 2014년 6월부터 시작하였습니다. 현재(2015년 12월)는 매주 월요일 [핵나잇(Hacknight)](http://meetup.com/code-for-seoul/) 이란 이름으로 모임을 가지고 있으며 약 10여명 이상의 꾸준히 참여하는 활동가들과 함께 프로젝트를 함께 만들어가고 있습니다. 주로 개발자, 디자이너로 이루어져있지만 굳이 개발이나 디자인을 하지 않아도 커뮤니티를 만들어가고 프로젝트를 이끌어 가는 데 많은 시민들이 함께 활동하고 있습니다.
 
-## Project History
-
-The original version of [OpenSpending](http://openspending.org)
-represents more than 6 years of development with at least 2 major
-iterations of the platform.  Originally launched as
-[Where Does My Money Go](http://wheredoesmymoneygo.org/) in 2009,
-OpenSpending joined forces with other projects in 2011 and expanded to become
-OpenSpending.
-
-Today, the original OpenSpending database has over 1000 datasets
-representing more than 28 million transactions. In addition, there are more
-than 30 local “Where Does My Money Go” sites powered by OpenSpending
-from Brazil to Nicaragua, Cameroon to Bosnia.
-
-## Project Principles
-
-OpenSpending is guided by its community principles.
-
-* **Open materials**. All material created within the project will be [open data and open content](http://opendefinition.org) built with [open tools](http://opensource.org). All project data is made available under the [Open Database License](http://opendatacommons.org/licenses/odbl/) or another [Open Data Commons license](http://opendatacommons.org/licenses/).
-* **Open community**. Anyone interested in financial data can contribute. We're friendly to newcomers and old hands alike -- everyone was new once, and we value all levels of experience.
-* **Doing**. Our focus is on the concrete, not the abstract, and on making rather than theorizing.
-
-## Governance
-
-### Principles
-
-* The OpenSpending project is **community-owned and community-run**. Both individuals and organizations - non-profit and for-profit - may participate.
-* The project's **Steering Group** has overall responsibility for the project. This includes engaging with community members and communicating decisions.
-* [Open Knowledge][ok] is the project's **legal and institutional home**. This stewardship responsibiliy confers no direct control over or special role in managing the project. At the same time, Open Knowledge may have other roles in the project, for example, as a member of the Steering Group. The project is also accountable to Open Knowledge regarding conformance with Open Knowledge project guidelines and principles of openness.
-
-[ok]: http://okfn.org/
-
-### Steering Group
-
-The steering group oversees the project and represents its major stakeholders. This group takes responsibility for maintaining the integrity of the project, setting project policies, representing the project in relation to third parties etc.
-
-See the [Steering Group page][sg] for more details and current members.
-
-[sg]: /about/steering-group/
+## 코드포{도시} in Korea
+* [코드포인천](http://codeforincheon.org/)
+* [코드포관악](https://www.facebook.com/code4gwanak/)

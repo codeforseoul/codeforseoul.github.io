@@ -1,24 +1,19 @@
 ---
 lead: true
 section: about
-title: Contact
+title: 연락하기
 authors:
-- Anders Pedersen
+- Hoony Jang
 redirect_from:
 - /contact/
 ---
 
-Connect with the OpenSpending community.
+코드포서울 활동을 시작하거나 활동가들과 대화를 시작할 때는 [Discourse](https://discuss.codeforseoul.org) 혹은 [슬랙](http://slack.codeforseoul.org)에서 참여하세요. 하지만 다른 소셜 네트워크를 통해서도 연락하실 수 있습니다.
 
-The best place for OpenSpending-related discussions is our [forum](https://discuss.okfn.org/c/openspending/), but you can interact with OpenSpending on your favorite social network by following the links below:
-
-* Open Knowledge Discussion Forum
-  * [English](https://discuss.okfn.org/c/openspending/none)
-  * [Portuguese](https://discuss.okfn.org/c/openspending/gastos-abertos)
-* <abbr title="Internet Relay Chat">IRC</abbr> chat: [#OpenSpending](http://webchat.freenode.net/?channels=openspending)
-* GitHub: 
-  * [OpenSpending](https://github.com/openspending) (OpenSpending-related code)
-  * [OpenSpending Datasets and Data Registry](https://github.com/os-data) (Datasets to load into OpenSpending)
-* Twitter: [&#64;openspending](https://twitter.com/openspending)
-* Facebook: [OpenSpending](https://www.facebook.com/openspending?_rdr=p)
-* Email: <a href="mailto:info@openspending.org">info@openspending.org</a>
+* [Discourse](https://discuss.codeforseoul.org)
+* Slack
+  * [codeforseoul.slack.com](https://codeforseoul.slack.com)
+  * [슬랙](http://slack.codeforseoul.org)
+* GitHub: [&#64;codeforseoul](https://github.com/codeforseoul)
+* Twitter: [&#64;codeforseoul_](https://twitter.com/codeforseoul&#95;)
+* Email: <a href="mailto:codeforseoul@codenamu.org">codeforseoul@codenamu.org</a>

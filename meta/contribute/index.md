@@ -1,24 +1,21 @@
 ---
-title: Contributing to this site
+title: 이 사이트에 기여하기
 authors:
- - Sam Smith
+ - Hoony Jang
 lang: en
 section: meta
 ---
 
-Thank you for your interest in in helping to build the OpenSpending
+[번역 필요]
+
+Thank you for your interest in in helping to build the Code for Seoul
 community site. We warmly welcome comments, corrections and additions,
 as well as suggestions for additional sections and areas to
-examine. For general discussion about
-[OpenSpending](https://openspending.org/), please visit
-[our forums](https://discuss.okfn.org/c/openspending). To jump in with
-improvements and additions, read on.
+examine.
 
 ## How this site works
 
-In order to contribute, you need a little insight of how things work
-under the hood. We’re not going to go into too much detail here, but
-these are the three components you need some understanding of:
+이 사이트를 다듬는데 기여하기 위해서는 사이트가 동작하는 원리에 대해 조금의 이해가 필요합니다. 세부적인 내용까지 다루지는 않겠지만 다음의 도구들을 살펴보시면 기여하시는데 도움이 될 것입니다.
 
 - GitHub
 - Jekyll
@@ -26,22 +23,16 @@ these are the three components you need some understanding of:
 
 ### GitHub
 
-#### What is it?
+#### 무엇인가요?
 
-GitHub is a web-based repository hosting service, which amongst other
-things offers revision control and source code management via a
-web-based graphical interface.
+GitHub은 웹을 기반으로 깃 레포지토리를 호스팅해주는 서비스로 웹 기반의 그래픽 인터페이스를 통해 버전 관리와 소스코드 관리를 제공합니다.
 
-#### Why should I care?
+#### 왜 알아야 하나요?
 
-Any changes you wish to make, whether they be edits to an existing
-page, or creating a new one, will most likely be done via the GitHub
-website (it is also possible to download and edit the files on your
+만일 여러분이 어떤 내용을 편집하거나 새로 만들고 싶을 때 어떤 일이든 Github을 통해서 이뤄집니다(it is also possible to download and edit the files on your
 local machine, instructions for this method will be added in the
-future). All the files for this site can be browsed and edited the
-GitHub website. You will need to [sign up](https://github.com/) for a
-(free) GitHub account. For full instructions, see
-[Editing a page](./editing/).
+future). 이 사이트를 구성하는 모든 파일들은 Github에서 검색하고 편집할 수 있습니다. 한번도 사용해보신 적 없는 분들은 [회원가입](https://github.com/)이 필요할 것입니다. 더 자세한 안내 사항은
+[페이지 편집하기](./editing/)를 참조하세요.
 
 ### Jekyll
 

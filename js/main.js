@@ -46,7 +46,7 @@ $(document).ready(function() {
   if ($('#github-activity').length) {
     $('#github-activity').githubActivity({
       events: 5,
-      repos: ["openspending/community.openspending.org"]
+      repos: ["codeforseoul/codeforseoul.github.io"]
     });
   }
 });

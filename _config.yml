@@ -36,6 +36,12 @@ supporters:
   -
     name: Bitcoin Center Korea
     footer_logo: bitcoincenterkorea.png
+  -
+    name: COW & DOG
+    footer_logo: cowndog.png
+  -
+    name: 10K Asia
+    footer_logo: 10k.png
 
 # googleanalytics: UA-8271754-63
 
@@ -46,6 +52,9 @@ markdown_ext: "markdown,mkdown,mdown,mkdn,mkd,md"
 permalink: pretty
 
 related_projects:
+  -
+      name: 2014 Annual Report
+      link: http://2014.codeforseoul.org
   -
       name: Where Does My Money Go?
       link: http://wheredoesmymoneygo.kr/
@@ -68,9 +77,9 @@ defaults:
     values:
       layout: "deprecated"
       section: "help"
-  -
-    scope:
-      path: "blog"
-    values:
-      layout: "post"
-      section: "blog"
+  # -
+  #   scope:
+  #     path: "blog"
+  #   values:
+  #     layout: "post"
+  #     section: "blog"

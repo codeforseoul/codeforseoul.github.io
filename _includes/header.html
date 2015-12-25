@@ -2,7 +2,7 @@
 {% assign url_last = url_parts |last  %}
 
 <header class="site-header">
-  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
+  <a href="#menu" class="show-menu"><span class="text">메뉴 열기</span></a>
   <a class="site-title" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
 </header>
 
@@ -10,6 +10,23 @@
   <ul>
     <li>
       <a href="{{ site.baseurl }}/">홈</a>
+    </li>
+    <li {% if url_last == 'about' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/about/">코드포서울이란?</a>
+      <ul>
+        <!-- <li {% if url_last == 'exemplars' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/about/exemplars/">Exemplars</a>
+        </li> -->
+        <li {% if url_last == 'contributors' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/about/contributors/">기여자</a>
+        </li>
+        <li {% if url_last == 'funders' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/about/funders/">후원</a>
+        </li>
+        <!-- <li {% if url_last == 'presentations' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/about/presentations/">Presentations</a>
+        </li> -->
+      </ul>
     </li>
     <li {% if page.url contains 'get-involved' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/get-involved/">참여하기</a>
@@ -35,8 +52,8 @@
         </li>
       </ul> -->
     </li>
-    <li {% if url_last == 'resources' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/resources/">프로젝트</a>
+    <li {% if url_last == 'projects' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/projects/">프로젝트</a>
       <!-- TODO: 프로젝트 소개 및 링크 -->
       <!-- <ul>
         <li {% if url_last == 'eu' %}class="Selected"{% endif %}>
@@ -184,30 +201,13 @@
       <a href="{{ site.baseurl }}/meta/">홈페이지 정보</a>
       <ul>
         <li {% if url_last == 'changes' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/meta/changes/">Recent Changes</a>
+          <a href="{{ site.baseurl }}/meta/changes/">최근 변경사항</a>
         </li>
         <li {% if page.url contains 'meta/contribute' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/meta/contribute/">Contribute</a>
+          <a href="{{ site.baseurl }}/meta/contribute/">기여하기</a>
         </li>
-        <li {% if page.url contains 'meta/media' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/meta/media/">Media</a>
-        </li>
-      </ul>
-    </li>
-    <li {% if url_last == 'about' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/about/">코드포서울이란?</a>
-      <ul>
-        <!-- <li {% if url_last == 'exemplars' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/about/exemplars/">Exemplars</a>
-        </li> -->
-        <li {% if url_last == 'contributors' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/about/contributors/">기여자</a>
-        </li>
-        <li {% if url_last == 'funders' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/about/funders/">후원</a>
-        </li>
-        <!-- <li {% if url_last == 'presentations' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/about/presentations/">Presentations</a>
+        <!-- <li {% if page.url contains 'meta/media' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/meta/media/">미디어 파일</a>
         </li> -->
       </ul>
     </li>

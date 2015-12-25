@@ -1,12 +1,14 @@
 ---
 section: about
 lead: true
-title: Contributors
+title: 기여자
 authors:
-- Anders Pedersen
+- Hoony Jang
 ---
 
-There are many contributors to OpenSpending. There are thousands of registered OpenSpending users contributing data and analysis.
+## 업데이트중
+
+<!-- There are many contributors to OpenSpending. There are thousands of registered OpenSpending users contributing data and analysis.
 
 It is impossible to adequately acknowledge the many individuals and organizations who have contributed.
 
@@ -169,4 +171,4 @@ I have started to learn to program and study R but without big results up till n
 
 ## Data Donors
 
-In progress ...
+In progress ... -->

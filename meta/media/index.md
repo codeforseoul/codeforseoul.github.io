@@ -3,6 +3,8 @@ title: Media
 section: meta
 ---
 
+<!-- TODO: 코드포서울 이미지 등록 필요 -->
+
 ## OpenSpending Square Logo
 
 ![OpenSpending Square](/img/OpenSpending_400x400.jpg)

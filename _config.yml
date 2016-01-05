@@ -3,6 +3,8 @@ title: Code for Seoul Community
 short_title: Code for Seoul Community
 description: |
   코드포서울은 IT기술로 더 나은 서울을 만들기 위한 시민들의 자발적인 커뮤니티입니다.
+keywords: |
+  "civic hacking, 시빅해킹, code for seoul, 코드포서울, open data, 공공데이터, 데이터, data"
 baseurl: ""
 issues_url: https://github.com/codeforseoul/codeforseoul.github.io/issues
 url: "http://codeforseoul.org/" # the base hostname & protocol for your site

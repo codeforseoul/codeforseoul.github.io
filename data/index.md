@@ -2,13 +2,13 @@
 title: 데이터
 ---
 
-## 19대 국회의원 정보
+## [19대 국회의원 정보](https://github.com/codeforseoul/data/blob/master/politics/19th_assembly_members.csv)
 * file: `19th_assembly_members.csv`
 * data: [열려라 국회](http://watch.peoplepower21.org/)
 * code
     * crawling: [Congress Report 프로젝트](http://github.com/codeforseoul/congress-report)
 
-## 19대 본회의/상임위원회 출석 정보
+## [19대 본회의/상임위원회 출석 정보](https://github.com/codeforseoul/data/blob/master/politics/19th_member_attendances.csv)
 * file: `19th_member_attendances.csv`
 * data: [열려라 국회](http://watch.peoplepower21.org/)
 * code:
@@ -25,7 +25,7 @@ title: 데이터
     * `absence`: 결석 횟수
     * `leave`: 청가 횟수
 
-## 19대 국회의원 표결 정보
+## [19대 국회의원 표결 정보](https://github.com/codeforseoul/data/blob/master/politics/19th_votes_results.csv)
 * file: `19th_votes_results.csv`
 * data: [열려라 국회](http://watch.peoplepower21.org/)
 * code:

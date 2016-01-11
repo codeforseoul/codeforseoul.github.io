@@ -197,6 +197,9 @@
         </li>
       </ul> -->
     </li>
+    <li {% if url_last == 'data' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/data/">데이터</a>
+    </li>
     <li {% if url_last == 'meta' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/meta/">홈페이지 정보</a>
       <ul>

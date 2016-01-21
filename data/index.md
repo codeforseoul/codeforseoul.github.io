@@ -2,15 +2,19 @@
 title: 데이터
 ---
 
-## [19대 국회의원 정보](https://github.com/codeforseoul/data/blob/master/politics/19th_assembly_members.csv)
-* file: `19th_assembly_members.csv`
-* data: [열려라 국회](http://watch.peoplepower21.org/)
+# [정치](https://github.com/codeforseoul/data/tree/master/politics)
+
+## [19대 국회의원 정보](https://github.com/codeforseoul/data/blob/master/politics/assembly_members/data/19th.csv)
+
+* path: `assembly_members`
+* source: [열려라 국회](http://watch.peoplepower21.org/)
 * code
     * crawling: [Congress Report 프로젝트](http://github.com/codeforseoul/congress-report)
 
-## [19대 본회의/상임위원회 출석 정보](https://github.com/codeforseoul/data/blob/master/politics/19th_member_attendances.csv)
-* file: `19th_member_attendances.csv`
-* data: [열려라 국회](http://watch.peoplepower21.org/)
+## [19대 본회의/상임위원회 출석 정보](https://github.com/codeforseoul/data/blob/master/politics/assembly_attendances/data/19th.csv)
+
+* path: `assembly_attendances`
+* source: [열려라 국회](http://watch.peoplepower21.org/)
 * code:
     * crawling: [Congress Report 프로젝트](http://github.com/codeforseoul/congress-report)
     * cleaning: [Python Source Code](https://gist.github.com/hoony/6b9321fc280f9f716320)
@@ -25,9 +29,9 @@ title: 데이터
     * `absence`: 결석 횟수
     * `leave`: 청가 횟수
 
-## [19대 국회의원 표결 정보](https://github.com/codeforseoul/data/blob/master/politics/19th_votes_results.csv)
-* file: `19th_votes_results.csv`
-* data: [열려라 국회](http://watch.peoplepower21.org/)
+## [19대 국회의원 표결 정보](https://github.com/codeforseoul/data/blob/master/politics/assembly_votes_results/data/19th.csv)
+* path: `assembly_votes_results`
+* source: [열려라 국회](http://watch.peoplepower21.org/)
 * code:
     * crawling: [Congress Report 프로젝트](http://github.com/codeforseoul/congress-report)
     * cleaning: [Python Source Code](https://gist.github.com/hoony/23d09ed44bbf4c3e262a)
@@ -41,3 +45,13 @@ title: 데이터
     * `date`: 회의 날짜
     * `turn`: 회의 회차
     * `status`: 의안 가결 결과
+
+# [경제](https://github.com/codeforseoul/data/tree/master/economy)
+
+## [3년 만기 대한민국 정부채권 수익률](https://github.com/codeforseoul/data/blob/master/economy/kr-government-bond-yields/data/data.csv)
+
+* path: `kr-government-bond-yields`
+* source: [e-나라지표](http://www.index.go.kr/potal/main/EachDtlPageDetail.do?idx_cd=1073)
+* columns
+    * date: 해당년도
+    * rate: 수익률

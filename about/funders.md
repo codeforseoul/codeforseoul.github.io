@@ -38,12 +38,6 @@ Read [the announce post]( http://blog.openspending.org/2012/01/12/civil-society-
 
 카우앤독은 소셜벤처투자자인 SOPOONG가 운영하는 코워킹 스페이스입니다. 코드포서울이 핵나잇 혹은 행사를 열 수 있도록 장소를 제공하고 있습니다.
 
-#### [10K Asia](http://10k.asia/)
-
-<img src="/img/supporters/10k.png" alt="10K Asia" width="100" height="100" class="alignright size-medium wp-image-1058" style="background-color: black;"/>
-
-10K Asia는 창업가들과 커뮤니티들을 위한 공간을 제공하고 다양한 행사 및 비즈니스 서비스를 제공하는 기술 플랫폼을 지향합니다. 코드포서울이 핵나잇 혹은 행사를 열 수 있도록 장소를 제공하고 있습니다.
-
 #### [남상균(개인)](https://www.linkedin.com/in/sangkyoonnam)
 
 ``codeforseoul.org`` 도메인 제공 및 관리

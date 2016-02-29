@@ -6,7 +6,28 @@ authors:
 - Hoony Jang
 ---
 
-## 업데이트중
+## 오거나이저
+
+### 2014년
+
+* 이예연([Twitter](https://twitter.com/Yeyeon91))
+* 임영제([Twitter](https://twitter.com/iizi_))
+* 장승훈([Github](https://github.com/hoony))
+
+### 2015년
+
+* 이예연([Twitter](https://twitter.com/Yeyeon91))
+* 임영제([Twitter](https://twitter.com/iizi_))
+* 장승훈([Github](https://github.com/hoony))
+* 홍영택([Github](https://github.com/mozodev))
+
+### 2016년 상반기
+
+* 이지원([Email](fleecycloud215@gmail.com): fleecycloud215@gmail.com)
+* 장승훈([Github](https://github.com/hoony))
+* 1명 추가 모집 예정
+
+## 활동가(업데이트 예정)
 
 <!-- There are many contributors to OpenSpending. There are thousands of registered OpenSpending users contributing data and analysis.
 

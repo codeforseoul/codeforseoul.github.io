@@ -13,7 +13,7 @@ redirect_from:
 * [Discourse](https://discuss.codeforseoul.org)
 * Slack
   * [codeforseoul.slack.com](https://codeforseoul.slack.com)
-  * [슬랙](http://slack.codeforseoul.org)
+  * [슬랙 초대](http://bit.ly/codeforseoul-slack-invite)
 * GitHub: [&#64;codeforseoul](https://github.com/codeforseoul)
 * Twitter: [&#64;codeforseoul_](https://twitter.com/codeforseoul&#95;)
 * Email: <a href="mailto:codeforseoul@codenamu.org">codeforseoul@codenamu.org</a>
